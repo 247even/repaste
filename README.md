@@ -1,11 +1,13 @@
 # repaste
 
+```
 repaste({
-    'template': '#tpl-' + q.Typ,
+    'template': '#template-selector',
     'selectors': {
       'id' : qid,
       'name' : name,
       'frage' : frage,
     },
-    'targets': '.quiz-wrapper'
+    'targets': '.target-selector'
 });
+```
